@@ -1,6 +1,10 @@
 # react-native-timer-cutdown
 react-native-timer-cutdown
 
+## Introduce
+
+![2018-11-19 16 34 52](https://user-images.githubusercontent.com/21967852/48695102-2e4dfa80-ec19-11e8-9999-0a4abf84eb4f.gif)
+
 ## Installation
 ```
 npm i react-native-timer-cutdown --save

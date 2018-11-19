@@ -35,7 +35,7 @@ class TimerIndex extends Component {
           backgroundColor: "#ccf"
         }}
       >
-        <View style={{ width: 100, height: 300 }}>
+        <View style={{ width: 200, height: 300 }}>
           <TimerCutDown
             ref={this.timerCutDown}
             until={30}
