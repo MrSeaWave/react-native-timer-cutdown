@@ -26,7 +26,7 @@ render(){
 ### Properties:
 | Property Name | Type | Default | Description |
 |:---:|:---:|:---:|:---:|
-|until|number|60|timer number,unix:s|
+|until|number|60|timer number,unit:s|
 |styles|object|{}|see source code|
 |afterEndOnChange|function|---|when time end,callback|
 ### Functions

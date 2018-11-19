@@ -1,6 +1,6 @@
 {
   "name": "react-native-timer-cutdown",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "timer-cutdown",
   "main": "./src/index.js",
   "scripts": {
