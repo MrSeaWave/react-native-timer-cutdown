@@ -26,7 +26,7 @@ class TimerCutDown extends Component {
   }
 
   _getPropsData = props => {
-    return { until: props.until };
+    return { until: Math.max(0, props.until) };
   };
 
   _cutDownFun = () => {
@@ -53,7 +53,10 @@ class TimerCutDown extends Component {
 
   restartCutDownTime = () => {
     this.stopCutDownTime();
-    this.setState((preState, props) => ({ until: props.until }), this.startCutDownTime);
+    this.setState(
+      (preState, props) => ({ until: Math.max(0, props.until) }),
+      this.startCutDownTime
+    );
   };
 
   stopCutDownTime = () => {
